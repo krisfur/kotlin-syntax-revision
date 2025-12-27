@@ -9,7 +9,9 @@ A simple project to demonstrate and review basic Kotlin syntax.
 
 ## Building and Running
 
-This project uses `Gradle`, which you can install with any package manager of your choice.
+This project uses `Gradle`, which you can install with any package manager of your choice. 
+
+For gradle to work we need to place the `Main.kt` entry point specifically in `src/main/kotlin/` to make it automatically discoverable by `Gradle`. The setup for the build is in `build.gradle.kts`.
 
 ### Running the Application
 
