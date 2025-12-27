@@ -1,9 +1,28 @@
-# Kotlin syntax revision notes
+# Kotlin Syntax Review
 
-Simple notes on Kotlin syntax.
+A simple project to demonstrate and review basic Kotlin syntax.
 
-## Running with IntelliJ
+## Requirements
 
-The run configuration is included in `.idea/runConfigurations`, with simple specification of running `Main.kt` as the main file.
+*   **Java Development Kit (JDK)**: Version 25 or higher.
+*   **Kotlin**: The project is configured to use Kotlin `2.3.0`.
 
-`Gradle` is more reproducible, but has compatibility issues between IntelliJ's implementation of it and `JDK25`.
+## Building and Running
+
+This project uses `Gradle`, which you can install with any package manager of your choice.
+
+### Running the Application
+
+To compile and run the main function, execute the following command from the root of the project:
+
+```bash
+gradle run
+```
+
+### Building the Project
+
+If you only want to compile the code and run tests, use the `build` command:
+
+```bash
+gradle build
+```
